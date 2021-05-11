@@ -1,3 +1,8 @@
 // Start by creating a variable `message`
+let greetingStart = "Hello, my name is ";
+let name = "Daniel";
 
-console.log(message);
+let greeting = greetingStart
+
+console.log(
+    `${greetingStart}${name}`);
