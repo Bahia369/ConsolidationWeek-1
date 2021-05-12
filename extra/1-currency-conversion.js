@@ -26,16 +26,16 @@ To run these tests type `node 1-currency-conversion` into your terminal
 const util = require("util");
 
 function test(test_name, actual, expected) {
-  let status;
-  if (actual === expected) {
-    status = "PASSED";
-  } else {
-    status = `FAILED: expected: ${util.inspect(
+    let status;
+    if (actual === expected) {
+        status = "PASSED";
+    } else {
+        status = `FAILED: expected: ${util.inspect(
       expected
     )} but your function returned: ${util.inspect(actual)}`;
-  }
+    }
 
-  console.log(`${test_name}: ${status}`);
+    console.log(`${test_name}: ${status}`);
 }
 
 test("convertToUSD function works", convertToUSD(32), 44.8);

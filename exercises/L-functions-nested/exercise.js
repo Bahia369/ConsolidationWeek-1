@@ -1,19 +1,12 @@
-var mentor1 = "Daniel";
-var mentor2 = "Irina";
-var mentor3 = "Mimi";
-var mentor4 = "Rob";
-var mentor5 = "Yohannes";
+let mentor1 = "Daniel";
+let mentor2 = "Irina";
+let mentor3 = "Mimi";
+let mentor4 = "Rob";
+let mentor5 = "Yohannes";
 
-function nameDis(display) {
-    let allMentors = [mentor1,
-        mentor2, mentor3, mentor, mentor5
-    ];
-    let mess = `hello`;
 
-    return display;
-}
-console.log(mentor1)
-console.log(mentor2)
-console.log(mentor3)
-console.log(mentor4)
-console.log(mentor5)
+console.log(`Hello ${mentor1.toUpperCase()}`)
+console.log(`Hello ${mentor2.toUpperCase()}`)
+console.log(`Hello ${mentor3.toUpperCase()}`)
+console.log(`Hello ${mentor4.toUpperCase()}`)
+console.log(`Hello ${mentor5.toUpperCase()}`)
