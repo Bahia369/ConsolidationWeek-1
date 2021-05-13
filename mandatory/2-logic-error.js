@@ -11,7 +11,7 @@ function getWordLength(word) {
 // needs to return 36.
 function multiply(a, b, c) {
     a * b * c;
-    return multiply;
+    return multiply(3, 3, 4);
 }
 
 /* 
