@@ -1,17 +1,23 @@
 // There are syntax errors in this code - can you fix it to pass the tests ?
 
-function greeting(name, age) {
-    return `Hello my name is ${name} and I am ${age} years old`
+function addNumbers(a, b, c) {
+    return a + b + c;
+
 }
-console.log(greeting(Harpal, 30));
+console.log(addNumbers(3, 4, 6));
 
+function introduceMe(name, age) {
 
+    return `Hello, my Name is " + ${name} +  and I am  + ${age} +  years old`;
+}
+console.log(introduceMe());
 
 function getTotal(a, b) {
-    let total = a + b;
-    return `The total is  ${total}`
+    total = a + b;
+
+    return `The total is ${getTotal}`;
 }
-console.log(getTotal(1, 1));
+console.log(getTotal(23, 5));
 /* 
 ===================================================
 ======= TESTS - DO NOT MODIFY BELOW THIS LINE =====
