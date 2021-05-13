@@ -1,15 +1,15 @@
 // There are syntax errors in this code - can you fix it to pass the tests ?
+function addNumbers(name, age) {
+    return `Hello, my name is` +
+        name `and I am` +
+        age `years old`;
+}
 
-
-
-function introduceMe(name, age)
-return "Hello, my name is " + name "and I am "
-age + "years old";
 
 function getTotal(a, b) {
-    total = a++b;
+    total = a + b;
 
-    return "The total is total"
+    return "The total is total";
 }
 /* 
 ===================================================
@@ -17,7 +17,8 @@ function getTotal(a, b) {
 
 There are some Tests in this file that will help you work out if your code is working.
 
-To run these tests type `node 1-syntax-errors.js` into your terminal
+To run these tests type `
+    node 1 - syntax - errors.js ` into your terminal
 
 ===================================================
 */
@@ -29,10 +30,17 @@ function test(test_name, actual, expected) {
     if (actual === expected) {
         status = "PASSED";
     } else {
-        status = `FAILED: expected: ${util.inspect(expected)} but your function returned: ${util.inspect(actual)}`;
+        status = `
+    FAILED: expected: $ { util.inspect(expected) }
+    but your
+
+    function returned: $ { util.inspect(actual) }
+    `;
     }
 
-    console.log(`${test_name}: ${status}`);
+    console.log(`
+    $ { test_name }: $ { status }
+    `);
 }
 
 test("fixed addNumbers function - case 1", addNumbers(3, 4, 6), 13);
