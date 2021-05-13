@@ -1,26 +1,28 @@
 // The syntax for this function is valid but it has an error, find it and fix it.
 
 function trimWord(word) {
-
+    let word = trimWord.trim(" ")
     return trimWord;
 }
+console.log(trimWord)
 
 function getWordLength(word) {
     return word.length;
 }
 // needs to return 36.
 function multiply(a, b, c) {
-    a * b * c;
-    return multiply(3, 3, 4);
+    total = a * b * c;
+    return total;
 }
-
+console.log(multiply(3, 3, 4));
 /* 
 ===================================================
 ======= TESTS - DO NOT MODIFY BELOW THIS LINE =====
 
 There are some Tests in this file that will help you work out if your code is working.
 
-To run these tests type `node 2-logic-error` into your terminal
+To run these tests type `
+    node 2 - logic - error ` into your terminal
 ===================================================
 */
 
@@ -31,12 +33,21 @@ function test(test_name, actual, expected) {
     if (actual === expected) {
         status = "PASSED";
     } else {
-        status = `FAILED: expected: ${util.inspect(
-      expected
-    )} but your function returned: ${util.inspect(actual)}`;
+        status = `
+    FAILED: expected: $ {
+        util.inspect(
+            expected
+        )
+    }
+    but your
+
+    function returned: $ { util.inspect(actual) }
+    `;
     }
 
-    console.log(`${test_name}: ${status}`);
+    console.log(`
+    $ { test_name }: $ { status }
+    `);
 }
 
 test(

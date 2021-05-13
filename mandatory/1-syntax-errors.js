@@ -15,7 +15,7 @@ console.log(introduceMe());
 function getTotal(a, b) {
     total = a + b;
 
-    return `The total is ${getTotal}`;
+    return `The total is ${total}`;
 }
 console.log(getTotal(23, 5));
 /* 
